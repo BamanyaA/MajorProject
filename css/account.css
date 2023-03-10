@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background: blueviolet;
+}
+.bar{
+    height: 70px;
+    background-color: red;
+    width: 100%
+   
+}
+.bar.btn{
+    position: absolute;
+    right:20px;
+    top:10px;
+    
+}
+.bar img{
+    width:50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#myBtnContainer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 20px;
+    top :90px;
+    width:20%;
+    height: auto;
+    background: #fff;
+    
+}
+.btn{
+    margin-bottom: 5px;
+}
+.btn i{
+    margin-right: 25px;
+}
+#display-box{
+    position:relative;
+    right:0;
+    top:20px;
+    background:white;
+    width:70%;
+    padding: 30px; 
+    margin-right: 5px;
+    
+}
+.row{
+    display: block;
+    background-color: white;
+}
+.profile-box{
+    position: relative;
+    display: flex;
+    background-color: rebeccapurple;
+    width:100%;
+    height: auto;
+}
+.header{
+    width: 100%;
+    margin-bottom: 20px;
+    align-self: center;
+}
+#photo_box{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(215, 204, 204);
+   
+}
+#photo_box i{
+ position: relative;
+ top:40px;
+ left:30px;
+ font-size: 100px;
+}
+.desc{
+    width: 400px;
+    padding-left: 10px;
+    height: 150px;
+    margin-top: 20px;
+
+}
+.desc .btn{
+ margin-top: 80px;
+}
+.img-fluid {
+    max-width: 200px;
+    height: auto;
+  }
+
+  /* css for info page*/
+  .info-page{
+    width:100%;
+    background: white;
+  }
+  .form-group{
+    display: flex;
+  }
+  .form-group label{
+    width: 20%;
+  }
+  .form-group input{
+    width:50%;
+  }
+  .error{
+    color:red;
+    display: none;
+  }
+  
