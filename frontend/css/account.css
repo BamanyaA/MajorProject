@@ -2,20 +2,47 @@
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
-body{
-    background: blueviolet;
+
+.container{
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
 }
+.filterDiv{
+    float: right;
+   color: black;
+   width: 80%;
+   text-align: center;
+   margin: 2px;
+   display: none;
+   margin-top:100px;
+    
+}
+.show {
+    display: block;
+  }
 .bar{
-    height: 70px;
-    background-color: red;
-    width: 100%
+    height: 80px;
+    background-color:blueviolet;
+    width: 100%;
+    margin-top:0;
+    position: fixed;
+    z-index: 9999;
    
 }
-.bar.btn{
-    position: absolute;
-    right:20px;
-    top:10px;
+.log{
+float:right;
+margin-top: 10px;
+margin-right: 20px;
+background-color: red;
+
     
+}
+.icon{
+    font-size: 30px;
+    color:red;
+    float:right;
+    margin-right: 50px;
 }
 .bar img{
     width:50px;
@@ -24,24 +51,29 @@ body{
     margin-top: 10px;
 }
 
-#myBtnContainer{
+#filter{
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     left: 20px;
     top :90px;
     width:20%;
-    height: auto;
-    background: #fff;
+    height: 300px;
+    
     
 }
-.btn{
-    margin-bottom: 5px;
-}
+
 .btn i{
-    margin-right: 25px;
+    margin-right: 5px;
 }
-#display-box{
+.btn{
+margin-bottom: 5px;
+}
+.btn:hover{
+    background-color: aqua;
+}
+
+.display-box{
     position:relative;
     right:0;
     top:20px;
@@ -87,7 +119,7 @@ body{
     margin-top: 20px;
 
 }
-.desc .btn{
+.desc{
  margin-top: 80px;
 }
 .img-fluid {
@@ -113,4 +145,39 @@ body{
     color:red;
     display: none;
   }
+
+
+  /* Css for Visa page*/
+
+  .imageBox{
+    background: url("../Image/visa.jpg");
+    width:100%;
+    height: 460px;
+    margin-top: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.imageBox h2{
+    font-size: 50px;
+    position:fixed;
+    bottom: 100px;
+    color: green;
+}
+p{
+    width: 80%;
+    padding-top: 80px;
+    line-height:inherit;
+    font-style: oblique;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+.btn a{
+    color: white;
+}
+
+  
+
   
